@@ -2,8 +2,6 @@
 using Android.Widget;
 using Android.OS;
 using System.Net.Http;
-using System.Collections.Generic;
-using GalaSoft.MvvmLight.Helpers;
 
 namespace HelloAndroid
 {
@@ -12,8 +10,6 @@ namespace HelloAndroid
     {
         private Button _button;
         private TextView _text;
-        private List<Binding> _bindings = new List<Binding>();
-
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -23,14 +19,23 @@ namespace HelloAndroid
             SetContentView (Resource.Layout.Main);
 
             _button = FindViewById<Button>(Resource.Id.MyButton);
-            _text = FindViewById<TextView>(Resource.Id.MyText);
 
-            _bindings.Add(
-                this.SetBinding(
-                    () => App.Locator.Main.Result,
-                    () => _text.Text));
+            _button.Click += async (s, e) =>
+            {
+                _text = FindViewById<TextView>(Resource.Id.MyText);
+                _text.Text = "Please wait";
+                var client = new HttpClient();
 
-            _button.SetCommand(App.Locator.Main.RefreshCommand);
+                var html = await client.GetStringAsync("https://www.youtube.com/watch?v=_ntWKJoqsLQ");
+
+                var div = "<div class=\"watch-view-count\">";
+
+                var index = html.IndexOf(div) + div.Length;
+                html = html.Substring(index);
+                var index2 = html.IndexOf("<");
+                html = html.Substring(0, index2);
+                _text.Text = html;
+            };
         }
     }
 }
