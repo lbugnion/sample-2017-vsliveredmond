@@ -1,0 +1,58 @@
+Xamarin MVVM
+
+Preparation
+
+	• Reboot
+	• Make sure that Surface is connected to TripMate
+	• Make sure that TripMate is connected to Internet
+	• Make sure that Phone is connected to TripMate
+	• Make sure that Mac is connected to TripMate
+	• Connect TightVNC
+	• Exit all apps on iOS
+	• Open Binding Sample on iOS
+	• Open Flowers on iOS
+	• Open Flowers.Forms on iOS
+	• Open presentation
+	• Load MVVM session in PresentationBuddy
+	• Start the Android emulator
+	• Open HelloXamarin MVVM - Start in VS
+	• Make sure snippets are loaded
+	• Font 17
+	• Open HelloXamarin MVVM 
+	• Font 17
+	• Open the Binding Sample app
+	• Font 17
+	• Open the Flowers app
+	• Open MainPage.xaml in designer
+	• Font 17
+	• Open the Flowers Forms app
+	• Font 17
+
+Introduction	4'	0:04
+Reminder MVC / MVVM	5'	0:09
+Why MVVM?	3'	0:12
+Demo refactoring	20'	0:32
+        • Open HelloXamarin MVVM - Start
+        • Show in emulator
+        • Add MVVM Light to Android project
+        • Show how we create the PCL
+        • Move the ViewModel folder to the class library
+        • Add a reference to the class library into the app
+        • Add a Unit test project
+        • Add a reference to the class library into the unit test app
+        • Implement MainViewModel
+        • Implement TestSample class
+        • Run unit test
+        • Add and implement App.cs
+        • Implement MainActivity
+        • Run main app
+        • Show the full solution with iOS and UWP too
+Abstraction	3'	0:35
+Introducing MVVM Light	2'	0:37
+Data binding in Xamarin	11'	0:48
+Demo Binding Evolve, Flowers	15'	1:03
+        • Run the application
+        • Explain the scenarios
+        • Show the code
+MVVM in Xamarin.Forms	9'	1:12
+Resources, Conclusion	3'	1:15
