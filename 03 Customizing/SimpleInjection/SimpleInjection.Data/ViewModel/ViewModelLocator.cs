@@ -5,7 +5,7 @@ namespace SimpleInjectionData.ViewModel
 {
     public class ViewModelLocator
     {
-        public const bool UseDesignTimeData = false;
+        public const bool UseDesignTimeData = true;
 
         private MainViewModel _main;
 
