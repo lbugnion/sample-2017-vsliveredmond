@@ -1,55 +1,20 @@
-# Visual Studio Live 2017, Las Vegas
+# Visual Studio Live 2017, Redmond WA
 
-My code samples for the Visual Studio Live conference 2017 in Las Vegas.
+My code samples for the Visual Studio Live conference 2017 in Redmond WA.
 
 # Presentation details, Slides
 
 You can see the details and the slides here:
 
-An Overview of the Xamarin Programming Platforms 
-http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017003
+Customizing your UI for Mobile Devices: Techniques to Create a Great User Experience 
+http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017014
 
 Building Truly Universal Applications with Windows, Xamarin and MVVM 
-http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017004
-
-Customizing your UI for Mobile Devices: Techniques to Create a Great User Experience 
-http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017005
+http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017015
 
 # Content
 
-## 01 Overview
-
-Code samples for An Overview of the Xamarin Programming Platforms  
-
-### HelloXamarin
-
-Shows a simple Xamarin "classic" application for iOS, Android and Windows
-
-### HelloXamarinForms
-
-Shows a simple Xamarin.Forms application for iOS, Android and Windows
-
-## 02 Mvvm
-
-Code samples for Building Truly Universal Applications with Windows, Xamarin and MVVM
-
-### HelloXamarin MVVM
-
-Shows a simple MVVM based application for Xamarin "classic" after refactoring.
-
-### XamBindingSample
-
-Shows a lot of binding and commanding examples for Xamarin.iOS, Xamarin.Android and Windows, as well as Observable lists for Android
-
-### ObservableListApple
-
-Shows a sample with observable lists for iOS.
-
-### Flowers
-
-A complete MVVM Light sample app for Xamarin.iOS, Xamarin.Android, Windows 10, Xamarin.Forms and more.
-
-## 03 Customizing
+## 01 Customizing
 
 Code samples for Customizing your UI for Mobile Devices: Techniques to Create a Great User Experience 
 
@@ -84,3 +49,23 @@ An example using design time data with dependency injection without external fra
 ### MvvmInjection
 
 An example using design time data with dependency injection with MVVM Light.
+
+## 02 Mvvm
+
+Code samples for Building Truly Universal Applications with Windows, Xamarin and MVVM
+
+### HelloXamarin MVVM
+
+Shows a simple MVVM based application for Xamarin "classic" after refactoring.
+
+### XamBindingSample
+
+Shows a lot of binding and commanding examples for Xamarin.iOS, Xamarin.Android and Windows, as well as Observable lists for Android
+
+### ObservableListApple
+
+Shows a sample with observable lists for iOS.
+
+### Flowers
+
+A complete MVVM Light sample app for Xamarin.iOS, Xamarin.Android, Windows 10, Xamarin.Forms and more.
