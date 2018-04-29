@@ -7,10 +7,10 @@ My code samples for the Visual Studio Live conference 2017 in Redmond WA.
 You can see the details and the slides here:
 
 Customizing your UI for Mobile Devices: Techniques to Create a Great User Experience 
-http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017014
+http://galasoft.ch/presentations/2017014
 
 Building Truly Universal Applications with Windows, Xamarin and MVVM 
-http://galasoft.ch/presentations/presentationdetails.cshtml?name=2017015
+http://galasoft.ch/presentations/2017015
 
 # Content
 
